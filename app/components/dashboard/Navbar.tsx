@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChartLine,
   faTrophy,
-  
+  // my backspace is getting tired
   faCrown,
   faDashboard,
   faGlobe,
