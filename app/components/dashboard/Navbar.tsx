@@ -91,7 +91,8 @@ const navItems: NavItem[] = [
 // Primary items shown directly in the bottom nav (mobile).
 // Keep this to 4 so the "More" button fits as the 5th slot.
 // added this after removing faMessages
-const BOTTOM_NAV_HREFS = ["/d", "/d/kanban", "/d/leaderboards"];
+const BOTTOM_NAV_HREFS = ["/d", "/d/", "/d/leaderboards"];
+// removed the last remaining kanban related code
 
 export default function DashboardLayout({
   email,
