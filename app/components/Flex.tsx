@@ -253,7 +253,7 @@ export default function Flex() {
               <h2 className="text-xl font-bold mb-2">{flex.name}</h2>
               <p>{flex.text}</p>
 
-              {/* deleted a block from here. this is the last change i made there. everything is done. all that remains is double checking the code. like why do i even have to double check at the first place man like i didnt even double check my answers in my final maths paper. jokes aside all is done */}
+              {/* deleted a block from here. this is the last change i made there. everything is done. all that us remaining is double checking the changes. signing outt*/}
 
               <textarea
                 value={flex.project_description || ""}
