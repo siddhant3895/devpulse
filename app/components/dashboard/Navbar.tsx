@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChartLine,
   faTrophy,
-  faMessage,
+  
   faCrown,
   faDashboard,
   faGlobe,
@@ -44,13 +44,7 @@ const navItems: NavItem[] = [
     role: "user",
     category: "dev",
   },
-  {
-    href: "/d/chat",
-    label: "Chat",
-    icon: faMessage,
-    role: "user",
-    category: "dev",
-  },
+  
   {
     href: "/d/kanban",
     label: "Kanban",
@@ -104,8 +98,8 @@ const navItems: NavItem[] = [
 
 // Primary items shown directly in the bottom nav (mobile).
 // Keep this to 4 so the "More" button fits as the 5th slot.
-const BOTTOM_NAV_HREFS = ["/d", "/d/chat", "/d/kanban", "/d/leaderboards"];
-const HIDDEN_BOTTOM_NAV_HREFS = ["/d/chat"];
+// added this after removing faMessages
+const BOTTOM_NAV_HREFS = ["/d", "/d/kanban", "/d/leaderboards"];
 
 export default function DashboardLayout({
   email,

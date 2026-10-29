@@ -4,7 +4,7 @@ import {
   faArrowRightFromBracket,
   faDashboard,
   faGear,
-  faMessage,
+ // just pressed backspace as you said lmao
   faProjectDiagram,
   faRankingStar,
   faStar,
@@ -99,14 +99,7 @@ export default function NavProfileDropdown({
                 <FontAwesomeIcon icon={faDashboard} className="w-4 h-4" />
                 Dashboard
               </Link>
-              <Link
-                href="/d/chat"
-                className="flex items-center gap-2 px-4 py-2 text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors"
-                onClick={() => setProfileOpen(false)}
-              >
-                <FontAwesomeIcon icon={faMessage} className="w-4 h-4" />
-                Chat
-              </Link>
+             
               <Link
                 href="/d/kanban"
                 className="flex items-center gap-2 px-4 py-2 text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors"
