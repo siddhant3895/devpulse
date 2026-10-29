@@ -134,6 +134,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
 
         <NortonSafeweb />
+        <script src="https://app.aiskillhub.dev/widget.js" data-widget="wgt_7kb1szzsf9d2ifxtzptkih31" async></script>
       </head>
       <body className="antialiased grid-bg">
         <NextTopLoader showSpinner={false} color="#2563eb" />
