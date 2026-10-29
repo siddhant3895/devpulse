@@ -5,7 +5,6 @@ import {
   faDashboard,
   faGear,
  // just pressed backspace as you said lmao
-  faProjectDiagram,
   faRankingStar,
   faStar,
 } from "@fortawesome/free-solid-svg-icons";
@@ -100,14 +99,6 @@ export default function NavProfileDropdown({
                 Dashboard
               </Link>
              
-              <Link
-                href="/d/kanban"
-                className="flex items-center gap-2 px-4 py-2 text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors"
-                onClick={() => setProfileOpen(false)}
-              >
-                <FontAwesomeIcon icon={faProjectDiagram} className="w-4 h-4" />
-                Kanban
-              </Link>
               <Link
                 href="/d/flex"
                 className="flex items-center gap-2 px-4 py-2 text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors"

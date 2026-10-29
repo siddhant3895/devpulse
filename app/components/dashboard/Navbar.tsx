@@ -15,7 +15,6 @@ import {
   faEdit,
   faCodeBranch,
   faBars,
-  faProjectDiagram,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
@@ -45,13 +44,6 @@ const navItems: NavItem[] = [
     category: "dev",
   },
   
-  {
-    href: "/d/kanban",
-    label: "Kanban",
-    icon: faProjectDiagram,
-    role: "user",
-    category: "dev",
-  },
   {
     href: "/d/flex",
     label: "Flex",
